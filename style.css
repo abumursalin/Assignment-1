@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    font-size: 20px;
+}
+h1{
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+.pink-color{
+    color: #e46a68;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #e46a68;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.flexible-container{
+    display: flex;
+    margin: 5%;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 55%;
+    margin: 20px;
+    padding-left: 25%;
+    padding: auto;
+}
+#header-item{
+    border-image: linear-gradient(#e46a68, orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    padding-left: 15px;
+}
+.description{
+    width: 60%;
+    margin-right: 5%;
+    padding-right: 20px;
+}
+#mission{
+    text-align: center;
+    font-weight: 700;
+}
+.box-container{
+    width: 25%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px;
+    border-radius: 30px;
+    
+}
+.box-container img{
+    width: 45%;
+    padding-left: 27%;
+}
+#box-mission{
+    background-color: paleturquoise;
+}
+#box-vission{
+    background-color: pink;
+}
+#box-goal{
+    background-color: blanchedalmond;
+}
+.develop{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 22%;
+}
+.develop img{
+    width: 50%;
+}
+.global{
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+}
+.global img{
+    width: 50%;
+}
+.corona{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-x: 8%;
+}
+.corona img{
+    width: 50%;
+}
+.white-text{
+    color: white;
+}
+.site-footer{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 60px;
+}
